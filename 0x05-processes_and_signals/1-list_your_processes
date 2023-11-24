@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
-
-# Display a list of currently running processes 
-# Use 'ps' command to display the processes
+# Display a list of currently running processes
 ps aux --forest
