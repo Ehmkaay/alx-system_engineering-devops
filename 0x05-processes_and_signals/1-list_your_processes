@@ -4,4 +4,4 @@
 echo "List of currently running processes:"
 
 # Use 'ps' command to display the processes
-ps axo pid,ppid,user,%cpu,%mem,cmd --forest
+ps aux --forest
