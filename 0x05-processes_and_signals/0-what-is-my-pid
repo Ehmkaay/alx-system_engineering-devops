@@ -2,4 +2,4 @@
 
 # What is my PID
 
-echo "4120$$"
+echo $$
