@@ -15,6 +15,6 @@ file { '/home/ubuntu/.ssh/config':
   owner   => 'ubuntu',
   group   => 'ubuntu',
   mode    => '0600',
-  content => "Host 18.235.233.220\n  IdentityFile ~/.ssh/school\n  PasswordAuthentication no\n",
+  content => "Host 100.26.216.148\n  IdentityFile ~/.ssh/school\n  PasswordAuthentication no\n",
   require => File['/home/ubuntu/.ssh'],
 }
